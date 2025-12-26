@@ -10,5 +10,24 @@ using namespace std;
 #define prev(P) P->prev
 #define info(P) P->info
 
+struct dosen {
+    string nama;
+    string nip;
+    string keahlian;
+};
+
+typedef dosen infotype_dosen; 
+typedef struct elmlist_dosen *address_dosen;
+
+struct elmlist_dosen { 
+    infotype_dosen info;
+    address_dosen next;
+    address_dosen prev;
+};
+
+struct List_dosen {
+    address_dosen first;
+    address_dosen last;
+};
 
 #endif

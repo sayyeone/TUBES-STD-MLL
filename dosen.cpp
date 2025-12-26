@@ -1,7 +1,8 @@
 #include "dosen.h"
 
 void createList(List_dosen &L) {
-
+    first(L) = NULL;
+    last(L) = NULL;
 }
 
 address_dosen alokasi_dosen(string nama, string nip, string keahlian) {

@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-#define first(L) L.first 
+#define first(L) L.first
 #define last(L) L.last
 #define next(P) P->next
 #define prev(P) P->prev
@@ -17,7 +17,7 @@ struct dosen {
 };
 
 typedef dosen infotype_dosen; 
-typedef struct elmlist_dosen *address_dosen; 
+typedef struct elmlist_dosen *address_dosen;
 
 struct elmlist_dosen { 
     infotype_dosen info;

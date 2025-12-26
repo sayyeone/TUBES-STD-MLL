@@ -6,7 +6,7 @@ void createList(List_dosen &L) {
 }
 
 address_dosen alokasi_dosen(string nama, string nip, string keahlian) {
-
+    // Astaga Dragon
 }
 
 void dealokasi_dosen(address_dosen &P) {
